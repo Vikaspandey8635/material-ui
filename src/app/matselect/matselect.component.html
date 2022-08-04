@@ -1,0 +1,18 @@
+<p>matselect works!</p>
+
+<mat-form-field>
+  <mat-label>Topic</mat-label>
+  <mat-select [(value)]="SelectedValue" multiple>
+    <mat-option>None</mat-option>
+    <mat-optgroup label="Web">
+      <mat-option value="Angular">Angular</mat-option>
+      <mat-option value="web development">web development</mat-option>
+      <mat-option value="nodejs">nodejs</mat-option>
+    </mat-optgroup>
+    <mat-optgroup label="mobile">
+      <mat-option value="ionic">ionic</mat-option>
+      <mat-option value="reactnative rjx">reactnative </mat-option>
+    </mat-optgroup>
+  </mat-select>
+</mat-form-field>
+<h3>my Topic is: {{SelectedValue}} </h3>
