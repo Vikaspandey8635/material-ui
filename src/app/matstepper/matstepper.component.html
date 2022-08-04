@@ -1,1 +1,42 @@
 <p>matstepper works!</p>
+
+<h3>mat-horizontal-stepper</h3>
+<mat-horizontal-stepper labelPosition="bottom">
+    <mat-step>
+        <ng-template matStepLabel>Profile</ng-template>
+        <p>Step 1</p>
+        <button mat-button matStepperNext>Next</button>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Address</ng-template>
+        <p>Step 2</p>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <p>Step 3</p>
+        <button mat-button matStepperPrevious>Back</button>
+    </mat-step>
+</mat-horizontal-stepper>
+<br>
+<br>
+<h3>mat-vertical-stepper</h3>
+<mat-vertical-stepper>
+    <mat-step>
+        <ng-template matStepLabel>Profile</ng-template>
+        <p>Step 1</p>
+        <button mat-button matStepperNext>Next</button>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Address</ng-template>
+        <p>Step 2</p>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <p>Step 3</p>
+        <button mat-button matStepperPrevious>Back</button>
+    </mat-step>
+</mat-vertical-stepper>

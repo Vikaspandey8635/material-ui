@@ -24,6 +24,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { MatdatepickerComponent } from './matdatepicker/matdatepicker.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatstepperComponent } from './matstepper/matstepper.component';
+import {MatStepperModule} from '@angular/material/stepper';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatpaginatorComponent,
     MatTabsComponent,
     MatdatepickerComponent,
+    MatstepperComponent
    
   
 
@@ -59,7 +62,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatPaginatorModule,
     MatDatepickerModule,
     MatInputModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
